@@ -4,9 +4,12 @@ Temp/
 Logs/
 UserSettings/
 Packages/
+obj/
 *.sln
 *.csproj
 *.sln
 *.userprefs
 *.unityproj
 *.DS_Store
+*.vsconfig
+*.vs
