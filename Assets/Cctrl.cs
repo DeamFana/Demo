@@ -1,11 +1,14 @@
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Cctrl : MonoBehaviour
 {
-    public float speed = 3.0F;
-    public float rotateSpeed = 2.0F;
-    public float maxVerticalView = 40.0f;
+    public float speed = 10.0F;
+    public float rotateSpeed = 3.0F;
+    public float maxVerticalView = 50.0f;
     CharacterController controller;
+
+    float verticalRotation = 0f; // 垂直旋转角度
 
     private void Start()
     {
@@ -18,34 +21,15 @@ public class Cctrl : MonoBehaviour
         float hor = Input.GetAxis("Horizontal");
         float ver = Input.GetAxis("Vertical");
         float mouseX = Input.GetAxis("Mouse X");
-        float mouseY = Input.GetAxis("Mouse Y");
+        float mouseY = Input.GetAxis("Mouse Y") * rotateSpeed;
 
-        float delta = mouseY * rotateSpeed;
-        float verView = Camera.main.transform.localEulerAngles.x;
+        verticalRotation -= mouseY;
+        verticalRotation = Mathf.Clamp(verticalRotation, -maxVerticalView, maxVerticalView);
 
-        // Rotate around y - axis
-        transform.Rotate(0, mouseX * rotateSpeed, 0);
-        if (verView < 360 - maxVerticalView && verView > 180)
-        {
+        Camera.main.transform.localEulerAngles = new Vector3(verticalRotation, 0f, 0f);
 
-            Camera.main.transform.localEulerAngles = new Vector3(360 - maxVerticalView, 0f, 0f);
-        }
-        else if (verView > maxVerticalView && verView < 180)
-        {
-            Debug.Log("FFFFFFFFFFFF");
-            // 防止浮点数溢出
-            Camera.main.transform.localEulerAngles = new Vector3(maxVerticalView - 0.001f, 0f, 0f);
-        }
-        else if (verView - delta > maxVerticalView)
-            delta = maxVerticalView - verView - 1;
-        else if (verView - delta < 360 - maxVerticalView)
-            delta = 360 - maxVerticalView - verView - 1;
-        Camera.main.transform.localEulerAngles = new Vector3(verView - delta, 0f, 0f);
-
-        Debug.Log("delta: " + delta + "\t旋转后的值" + Camera.main.transform.localEulerAngles.x);
-
-        // Move forward / backward
         Vector3 forward = transform.TransformDirection(new Vector3(hor, 0, ver));
         controller.SimpleMove(forward * speed);
+        transform.Rotate(0, mouseX * rotateSpeed, 0);
     }
 }
