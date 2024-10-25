@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c9bc43e142692db4e92eef81e1903ca4, type: 3}
-  m_Name: MinuteIsland
+  m_Name: IslandDemo
   m_EditorClassIdentifier: 
   serializedVersion: 0
   guiShowDependent: 0
@@ -40,17 +40,17 @@ MonoBehaviour:
       - t: 255
         v: 2
       - t: 255
-        v: 103
+        v: 108
       - t: 255
-        v: 104
+        v: 109
       - t: 255
-        v: 105
+        v: 110
       - t: 1
         v: 0
       - t: 255
-        v: 106
+        v: 111
       - t: 255
-        v: 108
+        v: 113
       special: 
       uniObj: {fileID: 0}
     - refId: 1
@@ -93,27 +93,27 @@ MonoBehaviour:
       - t: 255
         v: 17
       - t: 255
-        v: 30
+        v: 36
       - t: 255
-        v: 42
-      - t: 255
-        v: 54
-      - t: 255
-        v: 57
+        v: 48
       - t: 255
         v: 60
       - t: 255
-        v: 64
+        v: 63
       - t: 255
-        v: 67
+        v: 66
       - t: 255
-        v: 71
+        v: 70
       - t: 255
-        v: 74
+        v: 73
       - t: 255
-        v: 91
+        v: 77
       - t: 255
-        v: 94
+        v: 80
+      - t: 255
+        v: 97
+      - t: 255
+        v: 99
       special: 
       uniObj: {fileID: 0}
     - refId: 3
@@ -447,11 +447,11 @@ MonoBehaviour:
       - t: 11
         v: 8945119728725131593
       - t: 11
-        v: 591
+        v: 4727
       - t: 255
-        v: 28
+        v: 34
       - t: 255
-        v: 29
+        v: 35
       - t: 3
         v: 0
       - t: 3
@@ -470,7 +470,7 @@ MonoBehaviour:
       - t: 255
         v: 19
       - t: 255
-        v: 27
+        v: 33
       special: 
       uniObj: {fileID: 0}
     - refId: 19
@@ -487,6 +487,12 @@ MonoBehaviour:
         v: 23
       - t: 255
         v: 25
+      - t: 255
+        v: 27
+      - t: 255
+        v: 29
+      - t: 255
+        v: 31
       special: 
       uniObj: {fileID: 0}
     - refId: 20
@@ -503,7 +509,7 @@ MonoBehaviour:
       - t: 2
         v: 0
       - t: 2
-        v: 1063461284
+        v: 1070375386
       - t: 3
         v: 1
       special: 
@@ -520,9 +526,9 @@ MonoBehaviour:
       - t: 255
         v: 22
       - t: 2
-        v: 1065416171
+        v: 1059037150
       - t: 2
-        v: 1065416171
+        v: 1059037150
       - t: 3
         v: 0
       special: 
@@ -536,9 +542,9 @@ MonoBehaviour:
       - y
       values:
       - t: 2
-        v: 1042513645
+        v: 1048877748
       - t: 2
-        v: 1041949705
+        v: 1049843344
       special: 
       uniObj: {fileID: 0}
     - refId: 23
@@ -553,9 +559,9 @@ MonoBehaviour:
       - t: 255
         v: 24
       - t: 2
-        v: 1059118903
+        v: 1063633980
       - t: 2
-        v: 1059118903
+        v: 1063633980
       - t: 3
         v: 0
       special: 
@@ -569,9 +575,9 @@ MonoBehaviour:
       - y
       values:
       - t: 2
-        v: 1060525240
+        v: 1057387056
       - t: 2
-        v: 1061732234
+        v: 1051774534
       special: 
       uniObj: {fileID: 0}
     - refId: 25
@@ -586,11 +592,11 @@ MonoBehaviour:
       - t: 255
         v: 26
       - t: 2
-        v: 3198581316
+        v: 1067077773
       - t: 2
-        v: 0
+        v: 1067077773
       - t: 3
-        v: 1
+        v: 0
       special: 
       uniObj: {fileID: 0}
     - refId: 26
@@ -602,12 +608,111 @@ MonoBehaviour:
       - y
       values:
       - t: 2
-        v: 1065353216
+        v: 1059197547
       - t: 2
-        v: 1063379426
+        v: 1057024958
       special: 
       uniObj: {fileID: 0}
     - refId: 27
+      type: Den.Tools.Curve+Node, Den.Tools, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      altType: 
+      fields:
+      - pos
+      - inTangent
+      - outTangent
+      - linear
+      values:
+      - t: 255
+        v: 28
+      - t: 2
+        v: 1069436434
+      - t: 2
+        v: 1069436434
+      - t: 3
+        v: 0
+      special: 
+      uniObj: {fileID: 0}
+    - refId: 28
+      type: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      altType: 
+      fields:
+      - x
+      - y
+      values:
+      - t: 2
+        v: 1062094332
+      - t: 2
+        v: 1059680344
+      special: 
+      uniObj: {fileID: 0}
+    - refId: 29
+      type: Den.Tools.Curve+Node, Den.Tools, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      altType: 
+      fields:
+      - pos
+      - inTangent
+      - outTangent
+      - linear
+      values:
+      - t: 255
+        v: 30
+      - t: 2
+        v: 3201844067
+      - t: 2
+        v: 3201844067
+      - t: 3
+        v: 0
+      special: 
+      uniObj: {fileID: 0}
+    - refId: 30
+      type: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      altType: 
+      fields:
+      - x
+      - y
+      values:
+      - t: 2
+        v: 1064146222
+      - t: 2
+        v: 1064025523
+      special: 
+      uniObj: {fileID: 0}
+    - refId: 31
+      type: Den.Tools.Curve+Node, Den.Tools, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      altType: 
+      fields:
+      - pos
+      - inTangent
+      - outTangent
+      - linear
+      values:
+      - t: 255
+        v: 32
+      - t: 2
+        v: 3233018874
+      - t: 2
+        v: 0
+      - t: 3
+        v: 1
+      special: 
+      uniObj: {fileID: 0}
+    - refId: 32
+      type: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      altType: 
+      fields:
+      - x
+      - y
+      values:
+      - t: 2
+        v: 1065353216
+      - t: 2
+        v: 1061008038
+      special: 
+      uniObj: {fileID: 0}
+    - refId: 33
       type: System.Single[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
       altType: 
       fields: []
@@ -615,518 +720,518 @@ MonoBehaviour:
       - t: 2
         v: 0
       - t: 2
-        v: 996435673
+        v: 1003256940
       - t: 2
-        v: 1004849158
+        v: 1011583374
       - t: 2
-        v: 1009508071
+        v: 1016590596
       - t: 2
-        v: 1013287521
+        v: 1019847635
       - t: 2
-        v: 1016050489
+        v: 1023073587
       - t: 2
-        v: 1017952653
+        v: 1024839314
       - t: 2
-        v: 1019861037
+        v: 1026421202
       - t: 2
-        v: 1021775640
+        v: 1027987549
       - t: 2
-        v: 1023553319
+        v: 1029538350
       - t: 2
-        v: 1024516840
+        v: 1031073610
       - t: 2
-        v: 1025483470
+        v: 1032196054
       - t: 2
-        v: 1026453210
+        v: 1032948141
       - t: 2
-        v: 1027426061
+        v: 1033692455
       - t: 2
-        v: 1028402020
+        v: 1034428998
       - t: 2
-        v: 1029381089
+        v: 1035157769
       - t: 2
-        v: 1030363268
+        v: 1035878769
       - t: 2
-        v: 1031348558
+        v: 1036591995
       - t: 2
-        v: 1032067870
+        v: 1037297451
       - t: 2
-        v: 1032563624
+        v: 1037995136
       - t: 2
-        v: 1033060933
+        v: 1038685048
       - t: 2
-        v: 1033559796
+        v: 1039367189
       - t: 2
-        v: 1034060215
+        v: 1040041558
       - t: 2
-        v: 1034562189
+        v: 1040447773
       - t: 2
-        v: 1035065718
+        v: 1040777187
       - t: 2
-        v: 1035570801
+        v: 1041102713
       - t: 2
-        v: 1036077439
+        v: 1041424354
       - t: 2
-        v: 1036585631
+        v: 1041742109
       - t: 2
-        v: 1037095380
+        v: 1042055979
       - t: 2
-        v: 1037606683
+        v: 1042365962
       - t: 2
-        v: 1038119540
+        v: 1042672060
       - t: 2
-        v: 1038633953
+        v: 1042974272
       - t: 2
-        v: 1039149921
+        v: 1043272599
       - t: 2
-        v: 1039667441
+        v: 1043567039
       - t: 2
-        v: 1040186519
+        v: 1043857593
       - t: 2
-        v: 1040447271
+        v: 1044144261
       - t: 2
-        v: 1040708365
+        v: 1044427043
       - t: 2
-        v: 1040970235
+        v: 1044705942
       - t: 2
-        v: 1041232884
+        v: 1044980952
       - t: 2
-        v: 1041496309
+        v: 1045252077
       - t: 2
-        v: 1041760513
+        v: 1045519316
       - t: 2
-        v: 1042025582
+        v: 1045782669
       - t: 2
-        v: 1042293038
+        v: 1046042137
       - t: 2
-        v: 1042563388
+        v: 1046297718
       - t: 2
-        v: 1042836580
+        v: 1046549414
       - t: 2
-        v: 1043112563
+        v: 1046797223
       - t: 2
-        v: 1043391285
+        v: 1047041148
       - t: 2
-        v: 1043672692
+        v: 1047281188
       - t: 2
-        v: 1043956733
+        v: 1047517340
       - t: 2
-        v: 1044243357
+        v: 1047749606
       - t: 2
-        v: 1044532510
+        v: 1047977986
       - t: 2
-        v: 1044824141
+        v: 1048202481
       - t: 2
-        v: 1045118198
+        v: 1048423089
       - t: 2
-        v: 1045414629
+        v: 1048607907
       - t: 2
-        v: 1045713381
+        v: 1048714325
       - t: 2
-        v: 1046014403
+        v: 1048818801
       - t: 2
-        v: 1046317641
+        v: 1048921334
       - t: 2
-        v: 1046623046
+        v: 1049021924
       - t: 2
-        v: 1046930563
+        v: 1049120571
       - t: 2
-        v: 1047240142
+        v: 1049217274
       - t: 2
-        v: 1047551730
+        v: 1049312036
       - t: 2
-        v: 1047865275
+        v: 1049404854
       - t: 2
-        v: 1048180724
+        v: 1049495729
       - t: 2
-        v: 1048498028
+        v: 1049584661
       - t: 2
-        v: 1048696566
+        v: 1049671651
       - t: 2
-        v: 1048856991
+        v: 1049756697
       - t: 2
-        v: 1049018266
+        v: 1049839801
       - t: 2
-        v: 1049180362
+        v: 1049919223
       - t: 2
-        v: 1049343254
+        v: 1049993028
       - t: 2
-        v: 1049506917
+        v: 1050061397
       - t: 2
-        v: 1049671324
+        v: 1050124518
       - t: 2
-        v: 1049836449
+        v: 1050182577
       - t: 2
-        v: 1050002266
+        v: 1050235761
       - t: 2
-        v: 1050168749
+        v: 1050284256
       - t: 2
-        v: 1050335872
+        v: 1050328249
       - t: 2
-        v: 1050503608
+        v: 1050367926
       - t: 2
-        v: 1050671933
+        v: 1050403473
       - t: 2
-        v: 1050840819
+        v: 1050435079
       - t: 2
-        v: 1051010241
+        v: 1050462928
       - t: 2
-        v: 1051180173
+        v: 1050487208
       - t: 2
-        v: 1051350588
+        v: 1050508105
       - t: 2
-        v: 1051521462
+        v: 1050525805
       - t: 2
-        v: 1051692766
+        v: 1050540496
       - t: 2
-        v: 1051864476
+        v: 1050552363
       - t: 2
-        v: 1052036566
+        v: 1050561593
       - t: 2
-        v: 1052209010
+        v: 1050568374
       - t: 2
-        v: 1052381780
+        v: 1050572891
       - t: 2
-        v: 1052554852
+        v: 1050575330
       - t: 2
-        v: 1052728200
+        v: 1050575879
       - t: 2
-        v: 1052901796
+        v: 1050574723
       - t: 2
-        v: 1053075615
+        v: 1050572051
       - t: 2
-        v: 1053249633
+        v: 1050568047
       - t: 2
-        v: 1053423821
+        v: 1050562899
       - t: 2
-        v: 1053598154
+        v: 1050556794
       - t: 2
-        v: 1053772607
+        v: 1050549916
       - t: 2
-        v: 1053947153
+        v: 1050542454
       - t: 2
-        v: 1054121766
+        v: 1050534594
       - t: 2
-        v: 1054296418
+        v: 1050526523
       - t: 2
-        v: 1054471087
+        v: 1050518426
       - t: 2
-        v: 1054645744
+        v: 1050510490
       - t: 2
-        v: 1054820363
+        v: 1050502903
       - t: 2
-        v: 1054994920
+        v: 1050495849
       - t: 2
-        v: 1055169388
+        v: 1050489517
       - t: 2
-        v: 1055343741
+        v: 1050484093
       - t: 2
-        v: 1055517952
+        v: 1050479763
       - t: 2
-        v: 1055691994
+        v: 1050476713
       - t: 2
-        v: 1055865845
+        v: 1050475131
       - t: 2
-        v: 1056039475
+        v: 1050475202
       - t: 2
-        v: 1056212859
+        v: 1050477114
       - t: 2
-        v: 1056385973
+        v: 1050481053
       - t: 2
-        v: 1056558789
+        v: 1050487205
       - t: 2
-        v: 1056731282
+        v: 1050495758
       - t: 2
-        v: 1056903425
+        v: 1050506896
       - t: 2
-        v: 1057019900
+        v: 1050520807
       - t: 2
-        v: 1057105582
+        v: 1050537678
       - t: 2
-        v: 1057191050
+        v: 1050557696
       - t: 2
-        v: 1057276293
+        v: 1050581046
       - t: 2
-        v: 1057361294
+        v: 1050607915
       - t: 2
-        v: 1057446043
+        v: 1050638491
       - t: 2
-        v: 1057530525
+        v: 1050672958
       - t: 2
-        v: 1057614728
+        v: 1050711505
       - t: 2
-        v: 1057698640
+        v: 1050754317
       - t: 2
-        v: 1057782247
+        v: 1050801580
       - t: 2
-        v: 1057865536
+        v: 1050853482
       - t: 2
-        v: 1057948493
+        v: 1050910209
       - t: 2
-        v: 1058031107
+        v: 1050971948
       - t: 2
-        v: 1058113362
+        v: 1051038886
       - t: 2
-        v: 1058195249
+        v: 1051111207
       - t: 2
-        v: 1058276753
+        v: 1051189102
       - t: 2
-        v: 1058357859
+        v: 1051272752
       - t: 2
-        v: 1058438557
+        v: 1051362347
       - t: 2
-        v: 1058518832
+        v: 1051458073
       - t: 2
-        v: 1058598672
+        v: 1051560117
       - t: 2
-        v: 1058678063
+        v: 1051668664
       - t: 2
-        v: 1058756993
+        v: 1051783923
       - t: 2
-        v: 1058835449
+        v: 1051909594
       - t: 2
-        v: 1058913417
+        v: 1052047714
       - t: 2
-        v: 1058990886
+        v: 1052197418
       - t: 2
-        v: 1059067840
+        v: 1052357839
       - t: 2
-        v: 1059144269
+        v: 1052528112
       - t: 2
-        v: 1059220158
+        v: 1052707372
       - t: 2
-        v: 1059295494
+        v: 1052894752
       - t: 2
-        v: 1059370264
+        v: 1053089388
       - t: 2
-        v: 1059444458
+        v: 1053290413
       - t: 2
-        v: 1059518058
+        v: 1053496962
       - t: 2
-        v: 1059591054
+        v: 1053708171
       - t: 2
-        v: 1059663433
+        v: 1053923171
       - t: 2
-        v: 1059735182
+        v: 1054141098
       - t: 2
-        v: 1059806287
+        v: 1054361087
       - t: 2
-        v: 1059876734
+        v: 1054582273
       - t: 2
-        v: 1059946513
+        v: 1054803788
       - t: 2
-        v: 1060015608
+        v: 1055024770
       - t: 2
-        v: 1060084008
+        v: 1055244348
       - t: 2
-        v: 1060151699
+        v: 1055461661
       - t: 2
-        v: 1060218668
+        v: 1055675842
       - t: 2
-        v: 1060284903
+        v: 1055886025
       - t: 2
-        v: 1060350390
+        v: 1056091345
       - t: 2
-        v: 1060415117
+        v: 1056290936
       - t: 2
-        v: 1060479069
+        v: 1056483932
       - t: 2
-        v: 1060542234
+        v: 1056669469
       - t: 2
-        v: 1060604600
+        v: 1056846679
       - t: 2
-        v: 1060666153
+        v: 1056989652
       - t: 2
-        v: 1060726879
+        v: 1057068933
       - t: 2
-        v: 1060786766
+        v: 1057144718
       - t: 2
-        v: 1060845802
+        v: 1057217344
       - t: 2
-        v: 1060903974
+        v: 1057286987
       - t: 2
-        v: 1060961267
+        v: 1057353824
       - t: 2
-        v: 1061017668
+        v: 1057418027
       - t: 2
-        v: 1061073166
+        v: 1057479772
       - t: 2
-        v: 1061127747
+        v: 1057539235
       - t: 2
-        v: 1061181398
+        v: 1057596589
       - t: 2
-        v: 1061234105
+        v: 1057652009
       - t: 2
-        v: 1061285857
+        v: 1057705672
       - t: 2
-        v: 1061336639
+        v: 1057757752
       - t: 2
-        v: 1061386438
+        v: 1057808423
       - t: 2
-        v: 1061435244
+        v: 1057857860
       - t: 2
-        v: 1061483041
+        v: 1057906240
       - t: 2
-        v: 1061529815
+        v: 1057953735
       - t: 2
-        v: 1061575557
+        v: 1058000522
       - t: 2
-        v: 1061620252
+        v: 1058046775
       - t: 2
-        v: 1061663884
+        v: 1058092669
       - t: 2
-        v: 1061706444
+        v: 1058138379
       - t: 2
-        v: 1061748011
+        v: 1058184081
       - t: 2
-        v: 1061789489
+        v: 1058229948
       - t: 2
-        v: 1061831093
+        v: 1058276156
       - t: 2
-        v: 1061872796
+        v: 1058322881
       - t: 2
-        v: 1061914570
+        v: 1058370295
       - t: 2
-        v: 1061956386
+        v: 1058418576
       - t: 2
-        v: 1061998218
+        v: 1058467896
       - t: 2
-        v: 1062040037
+        v: 1058518433
       - t: 2
-        v: 1062081816
+        v: 1058570359
       - t: 2
-        v: 1062123526
+        v: 1058623852
       - t: 2
-        v: 1062165141
+        v: 1058679085
       - t: 2
-        v: 1062206632
+        v: 1058736233
       - t: 2
-        v: 1062247971
+        v: 1058795470
       - t: 2
-        v: 1062289131
+        v: 1058856974
       - t: 2
-        v: 1062330084
+        v: 1058920916
       - t: 2
-        v: 1062370802
+        v: 1058987475
       - t: 2
-        v: 1062411257
+        v: 1059056822
       - t: 2
-        v: 1062451421
+        v: 1059129135
       - t: 2
-        v: 1062491267
+        v: 1059204587
       - t: 2
-        v: 1062530767
+        v: 1059283354
       - t: 2
-        v: 1062569894
+        v: 1059365611
       - t: 2
-        v: 1062608618
+        v: 1059451531
       - t: 2
-        v: 1062646913
+        v: 1059541291
       - t: 2
-        v: 1062684751
+        v: 1059635067
       - t: 2
-        v: 1062722103
+        v: 1059734661
       - t: 2
-        v: 1062758944
+        v: 1059848300
       - t: 2
-        v: 1062795243
+        v: 1059976008
       - t: 2
-        v: 1062830974
+        v: 1060116498
       - t: 2
-        v: 1062866108
+        v: 1060268482
       - t: 2
-        v: 1062900619
+        v: 1060430674
       - t: 2
-        v: 1062934478
+        v: 1060601786
       - t: 2
-        v: 1062967656
+        v: 1060780533
       - t: 2
-        v: 1063000128
+        v: 1060965627
       - t: 2
-        v: 1063031865
+        v: 1061155780
       - t: 2
-        v: 1063062839
+        v: 1061349707
       - t: 2
-        v: 1063093021
+        v: 1061546119
       - t: 2
-        v: 1063122385
+        v: 1061743730
       - t: 2
-        v: 1063150903
+        v: 1061941253
       - t: 2
-        v: 1063178547
+        v: 1062137401
       - t: 2
-        v: 1063205289
+        v: 1062330888
       - t: 2
-        v: 1063231101
+        v: 1062520425
       - t: 2
-        v: 1063255955
+        v: 1062704727
       - t: 2
-        v: 1063279825
+        v: 1062882505
       - t: 2
-        v: 1063302681
+        v: 1063052474
       - t: 2
-        v: 1063324496
+        v: 1063213346
       - t: 2
-        v: 1063345243
+        v: 1063363835
       - t: 2
-        v: 1063364892
+        v: 1063502653
       - t: 2
-        v: 1063383418
+        v: 1063628513
       - t: 2
-        v: 1063400793
+        v: 1063740128
       - t: 2
-        v: 1063416986
+        v: 1063836212
       - t: 2
-        v: 1063431973
+        v: 1063915478
       - t: 2
-        v: 1063445723
+        v: 1063976637
       - t: 2
-        v: 1063458210
+        v: 1064018405
       - t: 2
-        v: 1063469407
+        v: 1064039492
       - t: 2
-        v: 1063479285
+        v: 1064038613
       - t: 2
-        v: 1063487817
+        v: 1064015477
       - t: 2
-        v: 1063494973
+        v: 1063980942
       - t: 2
-        v: 1063500728
+        v: 1063937355
       - t: 2
-        v: 1063505052
+        v: 1063883493
       - t: 2
-        v: 1063507919
+        v: 1063818125
       - t: 2
-        v: 1063509301
+        v: 1063740028
       - t: 2
-        v: 1063509169
+        v: 1063647972
       - t: 2
-        v: 1063507495
+        v: 1063540732
       - t: 2
-        v: 1063504252
+        v: 1063417081
       - t: 2
-        v: 1063499414
+        v: 1063275791
       - t: 2
-        v: 1063492951
+        v: 1063115636
       - t: 2
-        v: 1063484835
+        v: 1062935389
       - t: 2
-        v: 1063475039
+        v: 1062733824
       - t: 2
-        v: 1063463535
+        v: 1062509713
       - t: 2
-        v: 1063450297
+        v: 1062261829
       - t: 2
-        v: 1063435293
+        v: 1061988947
       - t: 2
-        v: 1063418499
+        v: 1061689839
       - t: 2
-        v: 1063399886
+        v: 1061363278
       - t: 2
-        v: 1063379426
+        v: 1061008038
       special: 
       uniObj: {fileID: 0}
-    - refId: 28
+    - refId: 34
       type: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -1140,7 +1245,7 @@ MonoBehaviour:
         v: 3270901760
       special: 
       uniObj: {fileID: 0}
-    - refId: 29
+    - refId: 35
       type: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -1154,7 +1259,7 @@ MonoBehaviour:
         v: 1127743488
       special: 
       uniObj: {fileID: 0}
-    - refId: 30
+    - refId: 36
       type: MapMagic.Nodes.MatrixGenerators.Blend200, MapMagic, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       altType: MapMagic.Nodes.Placeholders+InletOutletPlaceholder, MapMagic, Version=0.0.0.0,
@@ -1171,7 +1276,7 @@ MonoBehaviour:
       - guiDebug
       values:
       - t: 255
-        v: 31
+        v: 37
       - t: 3
         v: 1
       - t: 11
@@ -1179,9 +1284,9 @@ MonoBehaviour:
       - t: 11
         v: 0
       - t: 255
-        v: 40
+        v: 46
       - t: 255
-        v: 41
+        v: 47
       - t: 3
         v: 0
       - t: 3
@@ -1190,21 +1295,21 @@ MonoBehaviour:
         v: 0
       special: 
       uniObj: {fileID: 0}
-    - refId: 31
+    - refId: 37
       type: MapMagic.Nodes.MatrixGenerators.Blend200+Layer[], MapMagic, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       altType: 
       fields: []
       values:
       - t: 255
-        v: 32
+        v: 38
       - t: 255
-        v: 35
+        v: 41
       - t: 255
-        v: 37
+        v: 43
       special: 
       uniObj: {fileID: 0}
-    - refId: 32
+    - refId: 38
       type: MapMagic.Nodes.MatrixGenerators.Blend200+Layer, MapMagic, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       altType: 
@@ -1215,16 +1320,16 @@ MonoBehaviour:
       - guiExpanded
       values:
       - t: 255
-        v: 33
+        v: 39
       - t: 255
-        v: 34
+        v: 40
       - t: 2
         v: 1065353216
       - t: 3
         v: 0
       special: 
       uniObj: {fileID: 0}
-    - refId: 33
+    - refId: 39
       type: MapMagic.Nodes.Inlet`1[[Den.Tools.Matrices.MatrixWorld, Den.Tools, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null]], MapMagic, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
@@ -1236,7 +1341,7 @@ MonoBehaviour:
       - <LinkedGenId>k__BackingField
       values:
       - t: 255
-        v: 30
+        v: 36
       - t: 11
         v: 8945119728725131595
       - t: 11
@@ -1245,7 +1350,7 @@ MonoBehaviour:
         v: 8945119728725131593
       special: 
       uniObj: {fileID: 0}
-    - refId: 34
+    - refId: 40
       type: MapMagic.Nodes.MatrixGenerators.Blend200+BlendAlgorithm, MapMagic, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       altType: 
@@ -1256,7 +1361,7 @@ MonoBehaviour:
         v: 1
       special: 
       uniObj: {fileID: 0}
-    - refId: 35
+    - refId: 41
       type: MapMagic.Nodes.MatrixGenerators.Blend200+Layer, MapMagic, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       altType: 
@@ -1267,16 +1372,16 @@ MonoBehaviour:
       - guiExpanded
       values:
       - t: 255
-        v: 36
+        v: 42
       - t: 255
-        v: 34
+        v: 40
       - t: 2
         v: 1065353216
       - t: 3
         v: 0
       special: 
       uniObj: {fileID: 0}
-    - refId: 36
+    - refId: 42
       type: MapMagic.Nodes.Inlet`1[[Den.Tools.Matrices.MatrixWorld, Den.Tools, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null]], MapMagic, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
@@ -1288,7 +1393,7 @@ MonoBehaviour:
       - <LinkedGenId>k__BackingField
       values:
       - t: 255
-        v: 30
+        v: 36
       - t: 11
         v: 8945119728725131596
       - t: 11
@@ -1297,7 +1402,7 @@ MonoBehaviour:
         v: 8945119728725131590
       special: 
       uniObj: {fileID: 0}
-    - refId: 37
+    - refId: 43
       type: MapMagic.Nodes.MatrixGenerators.Blend200+Layer, MapMagic, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       altType: 
@@ -1308,16 +1413,16 @@ MonoBehaviour:
       - guiExpanded
       values:
       - t: 255
-        v: 38
+        v: 44
       - t: 255
-        v: 39
+        v: 45
       - t: 2
         v: 1065353216
       - t: 3
         v: 0
       special: 
       uniObj: {fileID: 0}
-    - refId: 38
+    - refId: 44
       type: MapMagic.Nodes.Inlet`1[[Den.Tools.Matrices.MatrixWorld, Den.Tools, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null]], MapMagic, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
@@ -1329,7 +1434,7 @@ MonoBehaviour:
       - <LinkedGenId>k__BackingField
       values:
       - t: 255
-        v: 30
+        v: 36
       - t: 11
         v: 8945119728725131597
       - t: 11
@@ -1338,7 +1443,7 @@ MonoBehaviour:
         v: 8945119728725131591
       special: 
       uniObj: {fileID: 0}
-    - refId: 39
+    - refId: 45
       type: MapMagic.Nodes.MatrixGenerators.Blend200+BlendAlgorithm, MapMagic, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       altType: 
@@ -1349,7 +1454,7 @@ MonoBehaviour:
         v: 3
       special: 
       uniObj: {fileID: 0}
-    - refId: 40
+    - refId: 46
       type: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -1363,7 +1468,7 @@ MonoBehaviour:
         v: 3280732160
       special: 
       uniObj: {fileID: 0}
-    - refId: 41
+    - refId: 47
       type: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -1377,7 +1482,7 @@ MonoBehaviour:
         v: 1123811328
       special: 
       uniObj: {fileID: 0}
-    - refId: 42
+    - refId: 48
       type: MapMagic.Nodes.MatrixGenerators.UnityCurve200, MapMagic, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       altType: MapMagic.Nodes.Placeholders+InletOutletPlaceholder, MapMagic, Version=0.0.0.0,
@@ -1398,25 +1503,25 @@ MonoBehaviour:
       - guiDebug
       values:
       - t: 255
-        v: 43
+        v: 49
       - t: 255
-        v: 44
+        v: 50
       - t: 255
-        v: 45
+        v: 51
       - t: 255
         v: 13
       - t: 255
-        v: 51
+        v: 57
       - t: 3
         v: 1
       - t: 11
         v: 8945119728725131598
       - t: 11
-        v: 0
+        v: 145
       - t: 255
-        v: 52
+        v: 58
       - t: 255
-        v: 53
+        v: 59
       - t: 3
         v: 0
       - t: 3
@@ -1425,7 +1530,7 @@ MonoBehaviour:
         v: 0
       special: 
       uniObj: {fileID: 0}
-    - refId: 43
+    - refId: 49
       type: MapMagic.Nodes.Inlet`1[[Den.Tools.Matrices.MatrixWorld, Den.Tools, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null]], MapMagic, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
@@ -1437,7 +1542,7 @@ MonoBehaviour:
       - <LinkedGenId>k__BackingField
       values:
       - t: 255
-        v: 42
+        v: 48
       - t: 11
         v: 8945119728725131599
       - t: 11
@@ -1446,7 +1551,7 @@ MonoBehaviour:
         v: 8945119728725131594
       special: 
       uniObj: {fileID: 0}
-    - refId: 44
+    - refId: 50
       type: MapMagic.Nodes.Inlet`1[[Den.Tools.Matrices.MatrixWorld, Den.Tools, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null]], MapMagic, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
@@ -1458,7 +1563,7 @@ MonoBehaviour:
       - <LinkedGenId>k__BackingField
       values:
       - t: 255
-        v: 42
+        v: 48
       - t: 11
         v: 8945119728725131600
       - t: 11
@@ -1467,37 +1572,37 @@ MonoBehaviour:
         v: 0
       special: 
       uniObj: {fileID: 0}
-    - refId: 45
+    - refId: 51
       type: UnityEngine.AnimationCurve, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       altType: 
       fields: []
       values:
       - t: 255
-        v: 46
+        v: 52
       - t: 1
         v: 8
       - t: 1
         v: 8
       special: 
       uniObj: {fileID: 0}
-    - refId: 46
+    - refId: 52
       type: UnityEngine.Keyframe[], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
       fields: []
       values:
       - t: 255
-        v: 47
+        v: 53
       - t: 255
-        v: 48
+        v: 54
       - t: 255
-        v: 49
+        v: 55
       - t: 255
-        v: 50
+        v: 56
       special: 
       uniObj: {fileID: 0}
-    - refId: 47
+    - refId: 53
       type: UnityEngine.Keyframe, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -1529,7 +1634,7 @@ MonoBehaviour:
         v: 0
       special: 
       uniObj: {fileID: 0}
-    - refId: 48
+    - refId: 54
       type: UnityEngine.Keyframe, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -1561,7 +1666,7 @@ MonoBehaviour:
         v: 1051372203
       special: 
       uniObj: {fileID: 0}
-    - refId: 49
+    - refId: 55
       type: UnityEngine.Keyframe, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -1576,9 +1681,9 @@ MonoBehaviour:
       - m_OutWeight
       values:
       - t: 2
-        v: 1046812156
+        v: 1048210428
       - t: 2
-        v: 1045894614
+        v: 1046527446
       - t: 2
         v: 1065576218
       - t: 2
@@ -1593,7 +1698,7 @@ MonoBehaviour:
         v: 1036806207
       special: 
       uniObj: {fileID: 0}
-    - refId: 50
+    - refId: 56
       type: UnityEngine.Keyframe, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -1625,7 +1730,7 @@ MonoBehaviour:
         v: 0
       special: 
       uniObj: {fileID: 0}
-    - refId: 51
+    - refId: 57
       type: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -1639,7 +1744,7 @@ MonoBehaviour:
         v: 1065353216
       special: 
       uniObj: {fileID: 0}
-    - refId: 52
+    - refId: 58
       type: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -1653,7 +1758,7 @@ MonoBehaviour:
         v: 3279093760
       special: 
       uniObj: {fileID: 0}
-    - refId: 53
+    - refId: 59
       type: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -1667,7 +1772,7 @@ MonoBehaviour:
         v: 1130627072
       special: 
       uniObj: {fileID: 0}
-    - refId: 54
+    - refId: 60
       type: MapMagic.Nodes.MatrixGenerators.Terrace200, MapMagic, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       altType: MapMagic.Nodes.Placeholders+InletOutletPlaceholder, MapMagic, Version=0.0.0.0,
@@ -1701,9 +1806,9 @@ MonoBehaviour:
       - t: 11
         v: 0
       - t: 255
-        v: 55
+        v: 61
       - t: 255
-        v: 56
+        v: 62
       - t: 3
         v: 1
       - t: 3
@@ -1712,7 +1817,7 @@ MonoBehaviour:
         v: 0
       special: 
       uniObj: {fileID: 0}
-    - refId: 55
+    - refId: 61
       type: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -1726,7 +1831,7 @@ MonoBehaviour:
         v: 3279176772
       special: 
       uniObj: {fileID: 0}
-    - refId: 56
+    - refId: 62
       type: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -1740,7 +1845,7 @@ MonoBehaviour:
         v: 1132724224
       special: 
       uniObj: {fileID: 0}
-    - refId: 57
+    - refId: 63
       type: MapMagic.Nodes.MatrixGenerators.Erosion200, MapMagic, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       altType: MapMagic.Nodes.Placeholders+InletOutletPlaceholder, MapMagic, Version=0.0.0.0,
@@ -1780,9 +1885,9 @@ MonoBehaviour:
       - t: 11
         v: 0
       - t: 255
-        v: 58
+        v: 64
       - t: 255
-        v: 59
+        v: 65
       - t: 3
         v: 1
       - t: 3
@@ -1791,7 +1896,7 @@ MonoBehaviour:
         v: 0
       special: 
       uniObj: {fileID: 0}
-    - refId: 58
+    - refId: 64
       type: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -1805,7 +1910,7 @@ MonoBehaviour:
         v: 3279176772
       special: 
       uniObj: {fileID: 0}
-    - refId: 59
+    - refId: 65
       type: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -1819,7 +1924,7 @@ MonoBehaviour:
         v: 1133379584
       special: 
       uniObj: {fileID: 0}
-    - refId: 60
+    - refId: 66
       type: MapMagic.Nodes.MatrixGenerators.HeightOutput200, MapMagic, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       altType: MapMagic.Nodes.Placeholders+InletOutletPlaceholder, MapMagic, Version=0.0.0.0,
@@ -1837,7 +1942,7 @@ MonoBehaviour:
       - guiDebug
       values:
       - t: 255
-        v: 61
+        v: 67
       - t: 3
         v: 0
       - t: 3
@@ -1847,9 +1952,9 @@ MonoBehaviour:
       - t: 11
         v: 0
       - t: 255
-        v: 62
+        v: 68
       - t: 255
-        v: 63
+        v: 69
       - t: 3
         v: 0
       - t: 3
@@ -1858,7 +1963,7 @@ MonoBehaviour:
         v: 0
       special: 
       uniObj: {fileID: 0}
-    - refId: 61
+    - refId: 67
       type: MapMagic.Nodes.OutputLevel, MapMagic, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -1869,7 +1974,7 @@ MonoBehaviour:
         v: 3
       special: 
       uniObj: {fileID: 0}
-    - refId: 62
+    - refId: 68
       type: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -1883,7 +1988,7 @@ MonoBehaviour:
         v: 3276210176
       special: 
       uniObj: {fileID: 0}
-    - refId: 63
+    - refId: 69
       type: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -1894,10 +1999,10 @@ MonoBehaviour:
       - t: 2
         v: 1125515264
       - t: 2
-        v: 1118306304
+        v: 1118830592
       special: 
       uniObj: {fileID: 0}
-    - refId: 64
+    - refId: 70
       type: MapMagic.Nodes.MatrixGenerators.Contrast200, MapMagic, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       altType: MapMagic.Nodes.Placeholders+InletOutletPlaceholder, MapMagic, Version=0.0.0.0,
@@ -1915,19 +2020,19 @@ MonoBehaviour:
       - guiDebug
       values:
       - t: 2
-        v: 3273785344
+        v: 3273654272
       - t: 2
-        v: 3280470016
+        v: 3280568320
       - t: 3
         v: 1
       - t: 11
         v: 8945119728725131604
       - t: 11
-        v: 0
+        v: 87
       - t: 255
-        v: 65
+        v: 71
       - t: 255
-        v: 66
+        v: 72
       - t: 3
         v: 0
       - t: 3
@@ -1936,7 +2041,7 @@ MonoBehaviour:
         v: 0
       special: 
       uniObj: {fileID: 0}
-    - refId: 65
+    - refId: 71
       type: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -1950,7 +2055,7 @@ MonoBehaviour:
         v: 3282567168
       special: 
       uniObj: {fileID: 0}
-    - refId: 66
+    - refId: 72
       type: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -1964,7 +2069,7 @@ MonoBehaviour:
         v: 1116995584
       special: 
       uniObj: {fileID: 0}
-    - refId: 67
+    - refId: 73
       type: MapMagic.Nodes.MatrixGenerators.Cavity200, MapMagic, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       altType: MapMagic.Nodes.Placeholders+InletOutletPlaceholder, MapMagic, Version=0.0.0.0,
@@ -1983,21 +2088,21 @@ MonoBehaviour:
       - guiDebug
       values:
       - t: 255
-        v: 68
-      - t: 2
-        v: 1077936128
+        v: 74
       - t: 2
         v: 1092616192
+      - t: 2
+        v: 1101004800
       - t: 3
         v: 1
       - t: 11
         v: 8945119728725131605
       - t: 11
-        v: 3
+        v: 13
       - t: 255
-        v: 69
+        v: 75
       - t: 255
-        v: 70
+        v: 76
       - t: 3
         v: 1
       - t: 3
@@ -2006,7 +2111,7 @@ MonoBehaviour:
         v: 0
       special: 
       uniObj: {fileID: 0}
-    - refId: 68
+    - refId: 74
       type: MapMagic.Nodes.MatrixGenerators.Cavity200+CavityType, MapMagic, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       altType: 
@@ -2017,7 +2122,7 @@ MonoBehaviour:
         v: 2
       special: 
       uniObj: {fileID: 0}
-    - refId: 69
+    - refId: 75
       type: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -2031,7 +2136,7 @@ MonoBehaviour:
         v: 3279978496
       special: 
       uniObj: {fileID: 0}
-    - refId: 70
+    - refId: 76
       type: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -2045,7 +2150,7 @@ MonoBehaviour:
         v: 1131675648
       special: 
       uniObj: {fileID: 0}
-    - refId: 71
+    - refId: 77
       type: MapMagic.Nodes.MatrixGenerators.Slope200, MapMagic, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       altType: MapMagic.Nodes.Placeholders+InletOutletPlaceholder, MapMagic, Version=0.0.0.0,
@@ -2064,21 +2169,21 @@ MonoBehaviour:
       - guiDebug
       values:
       - t: 2
-        v: 1106247680
+        v: 1114636288
       - t: 2
         v: 1120062669
       - t: 2
-        v: 1106247680
+        v: 1092616192
       - t: 3
         v: 1
       - t: 11
         v: 8945119728725131606
       - t: 11
-        v: 4
+        v: 7
       - t: 255
-        v: 72
+        v: 78
       - t: 255
-        v: 73
+        v: 79
       - t: 3
         v: 0
       - t: 3
@@ -2087,7 +2192,7 @@ MonoBehaviour:
         v: 0
       special: 
       uniObj: {fileID: 0}
-    - refId: 72
+    - refId: 78
       type: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -2101,7 +2206,7 @@ MonoBehaviour:
         v: 1065353216
       special: 
       uniObj: {fileID: 0}
-    - refId: 73
+    - refId: 79
       type: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -2115,7 +2220,7 @@ MonoBehaviour:
         v: 1119617024
       special: 
       uniObj: {fileID: 0}
-    - refId: 74
+    - refId: 80
       type: MapMagic.Nodes.MatrixGenerators.TexturesOutput200, MapMagic, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       altType: MapMagic.Nodes.Placeholders+InletOutletPlaceholder, MapMagic, Version=0.0.0.0,
@@ -2134,21 +2239,21 @@ MonoBehaviour:
       - guiDebug
       values:
       - t: 1
-        v: 4294967295
+        v: 1
       - t: 255
-        v: 61
+        v: 67
       - t: 255
-        v: 75
+        v: 81
       - t: 3
         v: 1
       - t: 11
         v: 8945119728725131607
       - t: 11
-        v: 0
+        v: 10
       - t: 255
-        v: 89
+        v: 95
       - t: 255
-        v: 90
+        v: 96
       - t: 3
         v: 0
       - t: 3
@@ -2157,23 +2262,23 @@ MonoBehaviour:
         v: 0
       special: 
       uniObj: {fileID: 0}
-    - refId: 75
+    - refId: 81
       type: MapMagic.Nodes.MatrixGenerators.TexturesOutput200+TextureLayer[], MapMagic,
         Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
       altType: 
       fields: []
       values:
       - t: 255
-        v: 76
-      - t: 255
-        v: 80
-      - t: 255
-        v: 83
+        v: 82
       - t: 255
         v: 86
+      - t: 255
+        v: 89
+      - t: 255
+        v: 92
       special: 
       uniObj: {fileID: 0}
-    - refId: 76
+    - refId: 82
       type: MapMagic.Nodes.MatrixGenerators.TexturesOutput200+TextureLayer, MapMagic,
         Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
       altType: 
@@ -2189,9 +2294,9 @@ MonoBehaviour:
       - id
       values:
       - t: 255
-        v: 77
+        v: 83
       - t: 255
-        v: 78
+        v: 84
       - t: 3
         v: 0
       - t: 3
@@ -2199,16 +2304,16 @@ MonoBehaviour:
       - t: 3
         v: 0
       - t: 255
-        v: 79
+        v: 85
       - t: 1
         v: 0
       - t: 255
-        v: 74
+        v: 80
       - t: 11
         v: 8945119728725131608
       special: 
       uniObj: {fileID: 0}
-    - refId: 77
+    - refId: 83
       type: UnityEngine.TerrainLayer, UnityEngine.TerrainModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       altType: 
@@ -2216,7 +2321,7 @@ MonoBehaviour:
       values: []
       special: 
       uniObj: {fileID: 8574412962073106934, guid: af8a2f819cbf6644fbe743f8a2b4f952, type: 2}
-    - refId: 78
+    - refId: 84
       type: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -2236,112 +2341,12 @@ MonoBehaviour:
         v: 1065353216
       special: 
       uniObj: {fileID: 0}
-    - refId: 79
-      type: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-      altType: 
-      fields: []
-      values: []
-      special: GrassGreen
-      uniObj: {fileID: 0}
-    - refId: 80
-      type: MapMagic.Nodes.MatrixGenerators.TexturesOutput200+TextureLayer, MapMagic,
-        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      altType: 
-      fields:
-      - prototype
-      - color
-      - guiProperties
-      - guiRemapping
-      - guiTileSettings
-      - name
-      - channelNum
-      - gen
-      - id
-      values:
-      - t: 255
-        v: 81
-      - t: 255
-        v: 78
-      - t: 3
-        v: 0
-      - t: 3
-        v: 0
-      - t: 3
-        v: 0
-      - t: 255
-        v: 82
-      - t: 1
-        v: 0
-      - t: 255
-        v: 74
-      - t: 11
-        v: 8945119728725131609
-      special: 
-      uniObj: {fileID: 0}
-    - refId: 81
-      type: UnityEngine.TerrainLayer, UnityEngine.TerrainModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-      altType: 
-      fields: []
-      values: []
-      special: 
-      uniObj: {fileID: 8574412962073106934, guid: cf3df7d7519ee014ebecbfe99c6cab3a, type: 2}
-    - refId: 82
-      type: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-      altType: 
-      fields: []
-      values: []
-      special: CliffDark
-      uniObj: {fileID: 0}
-    - refId: 83
-      type: MapMagic.Nodes.MatrixGenerators.TexturesOutput200+TextureLayer, MapMagic,
-        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      altType: 
-      fields:
-      - prototype
-      - color
-      - guiProperties
-      - guiRemapping
-      - guiTileSettings
-      - name
-      - channelNum
-      - gen
-      - id
-      values:
-      - t: 255
-        v: 84
-      - t: 255
-        v: 78
-      - t: 3
-        v: 0
-      - t: 3
-        v: 0
-      - t: 3
-        v: 0
-      - t: 255
-        v: 85
-      - t: 1
-        v: 0
-      - t: 255
-        v: 74
-      - t: 11
-        v: 8945119728725131610
-      special: 
-      uniObj: {fileID: 0}
-    - refId: 84
-      type: UnityEngine.TerrainLayer, UnityEngine.TerrainModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-      altType: 
-      fields: []
-      values: []
-      special: 
-      uniObj: {fileID: 8574412962073106934, guid: 240ea90774073d84cb4ef9b3c461e28c, type: 2}
     - refId: 85
       type: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
       altType: 
       fields: []
       values: []
-      special: CliffBright
+      special: GrassGreen
       uniObj: {fileID: 0}
     - refId: 86
       type: MapMagic.Nodes.MatrixGenerators.TexturesOutput200+TextureLayer, MapMagic,
@@ -2361,9 +2366,9 @@ MonoBehaviour:
       - t: 255
         v: 87
       - t: 255
-        v: 78
+        v: 84
       - t: 3
-        v: 0
+        v: 1
       - t: 3
         v: 0
       - t: 3
@@ -2373,9 +2378,9 @@ MonoBehaviour:
       - t: 1
         v: 0
       - t: 255
-        v: 74
+        v: 80
       - t: 11
-        v: 8945119728725131611
+        v: 8945119728725131609
       special: 
       uniObj: {fileID: 0}
     - refId: 87
@@ -2385,15 +2390,115 @@ MonoBehaviour:
       fields: []
       values: []
       special: 
-      uniObj: {fileID: 8574412962073106934, guid: 4afee262bdd7c9c4aa3935aa1f3f39e7, type: 2}
+      uniObj: {fileID: 8574412962073106934, guid: cf3df7d7519ee014ebecbfe99c6cab3a, type: 2}
     - refId: 88
+      type: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      altType: 
+      fields: []
+      values: []
+      special: CliffDark
+      uniObj: {fileID: 0}
+    - refId: 89
+      type: MapMagic.Nodes.MatrixGenerators.TexturesOutput200+TextureLayer, MapMagic,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      altType: 
+      fields:
+      - prototype
+      - color
+      - guiProperties
+      - guiRemapping
+      - guiTileSettings
+      - name
+      - channelNum
+      - gen
+      - id
+      values:
+      - t: 255
+        v: 90
+      - t: 255
+        v: 84
+      - t: 3
+        v: 0
+      - t: 3
+        v: 0
+      - t: 3
+        v: 0
+      - t: 255
+        v: 91
+      - t: 1
+        v: 0
+      - t: 255
+        v: 80
+      - t: 11
+        v: 8945119728725131610
+      special: 
+      uniObj: {fileID: 0}
+    - refId: 90
+      type: UnityEngine.TerrainLayer, UnityEngine.TerrainModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      altType: 
+      fields: []
+      values: []
+      special: 
+      uniObj: {fileID: 8574412962073106934, guid: 240ea90774073d84cb4ef9b3c461e28c, type: 2}
+    - refId: 91
+      type: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      altType: 
+      fields: []
+      values: []
+      special: CliffBright
+      uniObj: {fileID: 0}
+    - refId: 92
+      type: MapMagic.Nodes.MatrixGenerators.TexturesOutput200+TextureLayer, MapMagic,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      altType: 
+      fields:
+      - prototype
+      - color
+      - guiProperties
+      - guiRemapping
+      - guiTileSettings
+      - name
+      - channelNum
+      - gen
+      - id
+      values:
+      - t: 255
+        v: 93
+      - t: 255
+        v: 84
+      - t: 3
+        v: 0
+      - t: 3
+        v: 0
+      - t: 3
+        v: 0
+      - t: 255
+        v: 94
+      - t: 1
+        v: 0
+      - t: 255
+        v: 80
+      - t: 11
+        v: 8945119728725131611
+      special: 
+      uniObj: {fileID: 0}
+    - refId: 93
+      type: UnityEngine.TerrainLayer, UnityEngine.TerrainModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      altType: 
+      fields: []
+      values: []
+      special: 
+      uniObj: {fileID: 8574412962073106934, guid: 4afee262bdd7c9c4aa3935aa1f3f39e7, type: 2}
+    - refId: 94
       type: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
       altType: 
       fields: []
       values: []
       special: Sand
       uniObj: {fileID: 0}
-    - refId: 89
+    - refId: 95
       type: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -2407,7 +2512,7 @@ MonoBehaviour:
         v: 3281256448
       special: 
       uniObj: {fileID: 0}
-    - refId: 90
+    - refId: 96
       type: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -2418,10 +2523,10 @@ MonoBehaviour:
       - t: 2
         v: 1125515264
       - t: 2
-        v: 1127481344
+        v: 1136787456
       special: 
       uniObj: {fileID: 0}
-    - refId: 91
+    - refId: 97
       type: MapMagic.Nodes.MatrixGenerators.Contrast200, MapMagic, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       altType: MapMagic.Nodes.Placeholders+InletOutletPlaceholder, MapMagic, Version=0.0.0.0,
@@ -2449,18 +2554,18 @@ MonoBehaviour:
       - t: 11
         v: 0
       - t: 255
-        v: 92
+        v: 98
       - t: 255
-        v: 93
+        v: 72
       - t: 3
-        v: 1
+        v: 0
       - t: 3
         v: 0
       - t: 3
         v: 0
       special: 
       uniObj: {fileID: 0}
-    - refId: 92
+    - refId: 98
       type: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -2474,21 +2579,7 @@ MonoBehaviour:
         v: 3277568956
       special: 
       uniObj: {fileID: 0}
-    - refId: 93
-      type: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      altType: 
-      fields:
-      - x
-      - y
-      values:
-      - t: 2
-        v: 1125515264
-      - t: 2
-        v: 1130364928
-      special: 
-      uniObj: {fileID: 0}
-    - refId: 94
+    - refId: 99
       type: MapMagic.Nodes.MatrixGenerators.GrassOutput200, MapMagic, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       altType: MapMagic.Nodes.Placeholders+InletOutletPlaceholder, MapMagic, Version=0.0.0.0,
@@ -2508,23 +2599,23 @@ MonoBehaviour:
       - guiDebug
       values:
       - t: 255
-        v: 95
-      - t: 2
-        v: 1063339950
-      - t: 255
-        v: 96
-      - t: 255
         v: 100
+      - t: 2
+        v: 1061158912
+      - t: 255
+        v: 101
+      - t: 255
+        v: 105
       - t: 3
         v: 1
       - t: 11
         v: 8945119728725131613
       - t: 11
-        v: 0
+        v: 15
       - t: 255
-        v: 101
+        v: 106
       - t: 255
-        v: 102
+        v: 107
       - t: 3
         v: 0
       - t: 3
@@ -2533,7 +2624,7 @@ MonoBehaviour:
         v: 0
       special: 
       uniObj: {fileID: 0}
-    - refId: 95
+    - refId: 100
       type: MapMagic.Nodes.OutputLevel, MapMagic, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -2544,7 +2635,7 @@ MonoBehaviour:
         v: 2
       special: 
       uniObj: {fileID: 0}
-    - refId: 96
+    - refId: 101
       type: UnityEngine.DetailPrototype, UnityEngine.TerrainModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       altType: 
@@ -2572,11 +2663,11 @@ MonoBehaviour:
       - t: 255
         v: 4294967295
       - t: 255
-        v: 97
+        v: 102
       - t: 255
-        v: 98
+        v: 103
       - t: 255
-        v: 99
+        v: 104
       - t: 2
         v: 1065353216
       - t: 2
@@ -2609,7 +2700,7 @@ MonoBehaviour:
         v: 1065353216
       special: 
       uniObj: {fileID: 0}
-    - refId: 97
+    - refId: 102
       type: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -2617,7 +2708,7 @@ MonoBehaviour:
       values: []
       special: 
       uniObj: {fileID: 2800000, guid: 40f93eb0eb8c7ff40bebedfbbeb3a328, type: 3}
-    - refId: 98
+    - refId: 103
       type: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -2637,7 +2728,7 @@ MonoBehaviour:
         v: 1065353216
       special: 
       uniObj: {fileID: 0}
-    - refId: 99
+    - refId: 104
       type: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -2657,7 +2748,7 @@ MonoBehaviour:
         v: 1065353216
       special: 
       uniObj: {fileID: 0}
-    - refId: 100
+    - refId: 105
       type: MapMagic.Nodes.MatrixGenerators.GrassOutput200+GrassRenderMode, MapMagic,
         Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
       altType: 
@@ -2668,7 +2759,7 @@ MonoBehaviour:
         v: 1
       special: 
       uniObj: {fileID: 0}
-    - refId: 101
+    - refId: 106
       type: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -2682,7 +2773,7 @@ MonoBehaviour:
         v: 3277717504
       special: 
       uniObj: {fileID: 0}
-    - refId: 102
+    - refId: 107
       type: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -2696,7 +2787,7 @@ MonoBehaviour:
         v: 1133019136
       special: 
       uniObj: {fileID: 0}
-    - refId: 103
+    - refId: 108
       type: MapMagic.Nodes.IInlet`1[[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089]][], MapMagic, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
@@ -2706,38 +2797,38 @@ MonoBehaviour:
       - t: 255
         v: 17
       - t: 255
-        v: 38
+        v: 44
       - t: 255
-        v: 36
+        v: 42
       - t: 255
-        v: 33
+        v: 39
       - t: 255
-        v: 43
-      - t: 255
-        v: 54
-      - t: 255
-        v: 57
+        v: 49
       - t: 255
         v: 60
       - t: 255
-        v: 64
+        v: 63
       - t: 255
-        v: 67
+        v: 66
       - t: 255
-        v: 71
+        v: 70
+      - t: 255
+        v: 73
+      - t: 255
+        v: 77
+      - t: 255
+        v: 92
+      - t: 255
+        v: 89
       - t: 255
         v: 86
       - t: 255
-        v: 83
+        v: 97
       - t: 255
-        v: 80
-      - t: 255
-        v: 91
-      - t: 255
-        v: 94
+        v: 99
       special: 
       uniObj: {fileID: 0}
-    - refId: 104
+    - refId: 109
       type: MapMagic.Nodes.IOutlet`1[[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089]][], MapMagic, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
@@ -2753,39 +2844,39 @@ MonoBehaviour:
       - t: 255
         v: 17
       - t: 255
-        v: 30
+        v: 36
       - t: 255
-        v: 42
+        v: 48
       - t: 255
-        v: 54
+        v: 60
       - t: 255
-        v: 57
+        v: 63
       - t: 255
-        v: 57
+        v: 63
       - t: 255
-        v: 57
+        v: 63
       - t: 255
-        v: 57
+        v: 63
       - t: 255
-        v: 64
+        v: 70
       - t: 255
-        v: 67
+        v: 73
       - t: 255
-        v: 71
+        v: 77
       - t: 255
-        v: 76
+        v: 82
       - t: 255
-        v: 91
+        v: 97
       special: 
       uniObj: {fileID: 0}
-    - refId: 105
+    - refId: 110
       type: MapMagic.Nodes.Group[], MapMagic, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
       altType: 
       fields: []
       values: []
       special: 
       uniObj: {fileID: 0}
-    - refId: 106
+    - refId: 111
       type: MapMagic.Expose.Exposed, MapMagic, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -2793,10 +2884,10 @@ MonoBehaviour:
       - serEntries
       values:
       - t: 255
-        v: 107
+        v: 112
       special: 
       uniObj: {fileID: 0}
-    - refId: 107
+    - refId: 112
       type: MapMagic.Expose.Exposed+Entry[], MapMagic, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -2804,7 +2895,7 @@ MonoBehaviour:
       values: []
       special: 
       uniObj: {fileID: 0}
-    - refId: 108
+    - refId: 113
       type: MapMagic.Expose.Override, MapMagic, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
@@ -2813,12 +2904,12 @@ MonoBehaviour:
       - unityObjects
       values:
       - t: 255
-        v: 109
+        v: 114
       - t: 255
-        v: 110
+        v: 115
       special: 
       uniObj: {fileID: 0}
-    - refId: 109
+    - refId: 114
       type: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
       altType: 
       fields: []
@@ -2834,7 +2925,7 @@ MonoBehaviour:
         id4 >,\r\n    < \"_size\", System.Int32, id0, 0 >,\r\n    < \"_version\",
         System.Int32, id0, 0 > > >"
       uniObj: {fileID: 0}
-    - refId: 110
+    - refId: 115
       type: UnityEngine.Object[], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       altType: 
